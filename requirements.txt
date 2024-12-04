@@ -1,0 +1,35 @@
+List of Dependencies
+
+Flask==2.2.2
+joblib==1.2.0
+pandas==1.5.1
+scikit-learn==1.5.2
+numpy==1.24.0
+requests==2.28.1
+beautifulsoup4==4.11.1
+selenium==4.1.0
+imbalanced-learn==0.9.0
+
+List of Libraries
+
+import praw
+import pandas as pd
+import re
+from nltk.tokenize import word_tokenize
+import nltk
+from nltk.corpus import stopwords
+from nltk.stem import WordNetLemmatizer
+from nltk.stem.porter import PorterStemmer
+from nltk.sentiment.vader import SentimentIntensityAnalyzer
+from textblob import TextBlob
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import confusion_matrix
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+from sklearn.ensemble import IsolationForest
+from imblearn.over_sampling import SMOTE
+from sklearn.model_selection import GridSearchCV
+from sklearn.metrics import ConfusionMatrixDisplay
+from sklearn.metrics import classification_report, accuracy_score
